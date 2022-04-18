@@ -41,6 +41,12 @@ int print_hex(va_list l, flags_t *f);
 int print_hex_big(va_list l, flags_t *f);
 int print_binary(va_list l, flags_t *f);
 int print_octal(va_list l, flags_t *f);
+void print_char(va_list valist);
+void print_int(va_list valist);
+void print_float(va_list valist);
+void print_string(va_list valist);
+void _write_buffer(char *buffer, int *index);
+int _strlen(char *s);
 
 /* converter */
 char *convert(unsigned long int num, int base, int lowercase);
