@@ -1,9 +1,9 @@
-#ifndef MAIN_H_
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-#include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 /**
  * struct print - struct for printer functions
