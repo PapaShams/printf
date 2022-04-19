@@ -1,10 +1,14 @@
-#ifndef MAIN_H_
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
+<<<<<<< HEAD
 #define BUFSIZE 1025
 #include <stdlib.h>
+=======
+>>>>>>> Updated README.md and printf
 #include <stdarg.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 /**
  * struct print - struct for printer functions
